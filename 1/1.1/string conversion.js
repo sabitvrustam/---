@@ -11,4 +11,4 @@ function srtConv(str) {
     }
     return newStr;
 }
-console.log(srtConv('привет кАк делА heLLOO wORLD'));
+console.log(srtConv('привет кАк делА heLLOO wORLD')); //Привет Как Дела Helloo World
