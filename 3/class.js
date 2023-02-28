@@ -14,4 +14,4 @@ let tv = new Product("телевизор", "45000", "100", "led подсветк
 
 
 
-console.log(apple/n, tv);
+console.log(apple, tv);
