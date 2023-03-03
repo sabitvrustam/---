@@ -58,6 +58,7 @@ class Product {
 }
 
 let string = "name-contains-fd&price-=2&quantity->5&description-ends-abc";
+
 const product = [
 new Product("яблоки", 2, 56, "очень вкусные"),
 new Product("телевизор", 45000, 100, "led подсветка"),
@@ -73,12 +74,3 @@ for (i = 0; i <= product.length - 1; i++){
   mach = (product[i].matches(string));
   console.log(mach);
 }
-
-
-
-
-
-
-
-
-
